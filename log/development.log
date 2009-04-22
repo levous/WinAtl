@@ -297,3 +297,104 @@ Rendering courses/show
   [4;35;1mClassSchedule Load (0.3ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
 Rendered class_schedules/_class_schedule (0.9ms)
 Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/courses/1]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-22 07:21:03) [GET]
+  [4;36;1mClassSchedule Load (0.5ms)[0m   [0;1mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-22 07:35:09) [GET]
+
+ActionController::RoutingError (No route matches "/public/images/win-atl-logo.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-22 07:39:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/top-right-corner.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-22 07:39:33) [GET]
+
+ActionController::RoutingError (No route matches "/images/top-right-corner-fade.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-22 07:39:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/right-top-corner-fade.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-22 09:38:57) [GET]
+
+ActionController::RoutingError (No route matches "/seo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-22 10:08:48) [GET]
+  [4;35;1mClassSchedule Load (0.5ms)[0m   [0mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-22 10:12:16) [GET]
+  [4;36;1mCourse Load (0.5ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/courses
+Rendering courses/index
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-22 10:12:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;36;1mClassSchedule Load (0.3ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (0.9ms)
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/courses/1]
+
+
+Processing CoursesController#edit (for 127.0.0.1 at 2009-04-22 10:12:21) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/edit
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/courses/1/edit]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-22 10:12:22) [GET]
+  [4;36;1mCourse Load (0.6ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/courses
+Rendering courses/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/courses]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-22 10:12:28) [GET]
+  [4;35;1mClassSchedule Load (0.6ms)[0m   [0mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing ClassSchedulesController#show (for 127.0.0.1 at 2009-04-22 10:12:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mClassSchedule Load (0.2ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 3) [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/class_schedules/3]
