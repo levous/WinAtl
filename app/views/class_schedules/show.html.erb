@@ -1,0 +1,38 @@
+<p>
+  <b>Created on:</b>
+  <%=h @class_schedule.created_on %>
+</p>
+
+<p>
+  <b>Updated on:</b>
+  <%=h @class_schedule.updated_on %>
+</p>
+
+<p>
+  <b>Course:</b>
+  <%=h @class_schedule.course_id %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%=h @class_schedule.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @class_schedule.end_date %>
+</p>
+
+<p>
+  <b>Class begins time:</b>
+  <%=h @class_schedule.class_begins_time %>
+</p>
+
+<p>
+  <b>Class ends time:</b>
+  <%=h @class_schedule.class_ends_time %>
+</p>
+
+
+<%= link_to 'Edit', edit_class_schedule_path(@class_schedule) %> |
+<%= link_to 'Back', class_schedules_path %>

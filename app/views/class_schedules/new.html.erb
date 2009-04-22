@@ -1,0 +1,39 @@
+<h1>New class_schedule</h1>
+
+<% form_for(@class_schedule) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :created_on %><br />
+    <%= f.datetime_select :created_on %>
+  </p>
+  <p>
+    <%= f.label :updated_on %><br />
+    <%= f.datetime_select :updated_on %>
+  </p>
+  <p>
+    <%= f.label :course_id %><br />
+    <%= f.text_field :course_id %>
+  </p>
+  <p>
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </p>
+  <p>
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </p>
+  <p>
+    <%= f.label :class_begins_time %><br />
+    <%= f.datetime_select :class_begins_time %>
+  </p>
+  <p>
+    <%= f.label :class_ends_time %><br />
+    <%= f.datetime_select :class_ends_time %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', class_schedules_path %>

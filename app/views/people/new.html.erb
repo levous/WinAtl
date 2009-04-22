@@ -1,0 +1,51 @@
+<h1>New person</h1>
+
+<% form_for(@person) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name_last %><br />
+    <%= f.text_field :name_last %>
+  </p>
+  <p>
+    <%= f.label :name_first %><br />
+    <%= f.text_field :name_first %>
+  </p>
+  <p>
+    <%= f.label :name_middle %><br />
+    <%= f.text_field :name_middle %>
+  </p>
+  <p>
+    <%= f.label :phone_mobile %><br />
+    <%= f.text_field :phone_mobile %>
+  </p>
+  <p>
+    <%= f.label :phone_home %><br />
+    <%= f.text_field :phone_home %>
+  </p>
+  <p>
+    <%= f.label :email_address_personal %><br />
+    <%= f.text_field :email_address_personal %>
+  </p>
+  <p>
+    <%= f.label :email_address_office %><br />
+    <%= f.text_field :email_address_office %>
+  </p>
+  <p>
+    <%= f.label :professional_title %><br />
+    <%= f.text_field :professional_title %>
+  </p>
+  <p>
+    <%= f.label :created_on %><br />
+    <%= f.datetime_select :created_on %>
+  </p>
+  <p>
+    <%= f.label :updated_on %><br />
+    <%= f.datetime_select :updated_on %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', people_path %>

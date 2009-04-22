@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  created_on: 2009-04-21 20:46:35
+  updated_on: 2009-04-21 20:46:35
+  course_id: 1
+  start_date: 2009-04-21
+  end_date: 2009-04-21
+  class_begins_time: 2009-04-21 20:46:35
+  class_ends_time: 2009-04-21 20:46:35
+
+two:
+  created_on: 2009-04-21 20:46:35
+  updated_on: 2009-04-21 20:46:35
+  course_id: 1
+  start_date: 2009-04-21
+  end_date: 2009-04-21
+  class_begins_time: 2009-04-21 20:46:35
+  class_ends_time: 2009-04-21 20:46:35

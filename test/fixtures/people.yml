@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name_last: MyString
+  name_first: MyString
+  name_middle: MyString
+  phone_mobile: MyString
+  phone_home: MyString
+  email_address_personal: MyString
+  email_address_office: MyString
+  professional_title: MyString
+  created_on: 2009-04-21 20:37:25
+  updated_on: 2009-04-21 20:37:25
+
+two:
+  name_last: MyString
+  name_first: MyString
+  name_middle: MyString
+  phone_mobile: MyString
+  phone_home: MyString
+  email_address_personal: MyString
+  email_address_office: MyString
+  professional_title: MyString
+  created_on: 2009-04-21 20:37:25
+  updated_on: 2009-04-21 20:37:25
