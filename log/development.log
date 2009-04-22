@@ -52,3 +52,248 @@ Migrating to CreateClassLocations (20090422004712)
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("class_schedules")[0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("courses")[0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("people")[0m
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-21 22:38:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;35;1mClassSchedule Load (0.4ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (1.4ms)
+Rendered class_schedules/_class_schedule (0.6ms)
+Completed in 67ms (View: 55, DB: 1) | 200 OK [http://localhost/courses/1]
+
+
+Processing ClassSchedulesController#show (for 127.0.0.1 at 2009-04-21 22:38:05) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClassSchedule Load (0.2ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 2) [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/show
+Completed in 54ms (View: 48, DB: 0) | 200 OK [http://localhost/class_schedules/2]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-21 22:38:31) [GET]
+  [4;35;1mCourse Load (0.5ms)[0m   [0mSELECT * FROM "courses" [0m
+Rendering template within layouts/courses
+Rendering courses/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-21 22:38:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCourse Load (0.3ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;35;1mClassSchedule Load (0.4ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (0.9ms)
+Rendered class_schedules/_class_schedule (0.7ms)
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/courses/1]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:38:41) [GET]
+  Parameters: {"course_id"=>"1"}
+  [4;36;1mClassSchedule Load (0.7ms)[0m   [0;1mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/courses/1/class_schedules]
+
+
+Processing ClassSchedulesController#show (for 127.0.0.1 at 2009-04-21 22:38:50) [GET]
+  Parameters: {"id"=>"1", "course_id"=>"1"}
+  [4;35;1mClassSchedule Load (0.2ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 1) [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/courses/1/class_schedules/1]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:38:53) [GET]
+  Parameters: {"course_id"=>"1"}
+  [4;36;1mClassSchedule Load (0.7ms)[0m   [0;1mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/courses/1/class_schedules/]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:39:08) [GET]
+  Parameters: {"course_id"=>"2"}
+  [4;35;1mClassSchedule Load (0.7ms)[0m   [0mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/courses/2/class_schedules/]
+
+
+Processing ClassSchedulesController#show (for 127.0.0.1 at 2009-04-21 22:39:13) [GET]
+  Parameters: {"id"=>"1", "course_id"=>"2"}
+  [4;36;1mClassSchedule Load (0.2ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 1) [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/show
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/courses/2/class_schedules/1]
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-21 22:39:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;36;1mClassSchedule Load (0.4ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (53.6ms)
+Rendered class_schedules/_class_schedule (0.7ms)
+Completed in 67ms (View: 62, DB: 1) | 200 OK [http://localhost/courses/1]
+
+
+Processing CoursesController#edit (for 127.0.0.1 at 2009-04-21 22:39:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCourse Load (0.2ms)[0m   [0mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/edit
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/courses/1/edit]
+
+
+Processing CoursesController#update (for 127.0.0.1 at 2009-04-21 22:41:28) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"1", "course"=>{"title"=>"SEO Optimization in Action", "description"=>"A Search Engine Optimization class targeted to the Small Business Owner with an emphasis on ranking well for local online search (Google Local). \r\n\r\nStudents will learn the fundamentals necessary to succeed against larger companies in the highly competitive, but remarkably flat, arena of online search.  During the class, students will execute the techniques they learn against their own website source code with guidance from the instructor.   \r\n\r\nThey leave the class with the knowledge and experience they need to grow as well as enhancements already completed that will start to move the traffic needle. \r\n\r\n"}}
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+  [4;35;1mCourse Update (0.6ms)[0m   [0mUPDATE "courses" SET "description" = 'A Search Engine Optimization class targeted to the Small Business Owner with an emphasis on ranking well for local online search (Google Local). 
+
+Students will learn the fundamentals necessary to succeed against larger companies in the highly competitive, but remarkably flat, arena of online search. During the class, students will execute the techniques they learn against their own website source code with guidance from the instructor. 
+
+They leave the class with the knowledge and experience they need to grow as well as enhancements already completed that will start to move the traffic needle. 
+
+', "updated_at" = '2009-04-22 02:41:28' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/courses/1
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/courses/1]
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-21 22:41:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;35;1mClassSchedule Load (0.4ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (0.9ms)
+Rendered class_schedules/_class_schedule (0.6ms)
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/courses/1]
+
+
+Processing ClassSchedulesController#show (for 127.0.0.1 at 2009-04-21 22:41:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClassSchedule Load (0.2ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 2) [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/show
+Completed in 9ms (View: 3, DB: 0) | 200 OK [http://localhost/class_schedules/2]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:41:32) [GET]
+  [4;35;1mClassSchedule Load (0.7ms)[0m   [0mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 12ms (View: 8, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing ClassSchedulesController#destroy (for 127.0.0.1 at 2009-04-21 22:41:39) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"1"}
+  [4;36;1mClassSchedule Load (0.3ms)[0m   [0;1mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 1) [0m
+  [4;35;1mClassSchedule Destroy (0.3ms)[0m   [0mDELETE FROM "class_schedules" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/class_schedules
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/class_schedules/1]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:41:39) [GET]
+  [4;36;1mClassSchedule Load (0.6ms)[0m   [0;1mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing ClassSchedulesController#destroy (for 127.0.0.1 at 2009-04-21 22:41:41) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"2"}
+  [4;35;1mClassSchedule Load (0.3ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules"."id" = 2) [0m
+  [4;36;1mClassSchedule Destroy (0.3ms)[0m   [0;1mDELETE FROM "class_schedules" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/class_schedules
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/class_schedules/2]
+
+
+Processing ClassSchedulesController#index (for 127.0.0.1 at 2009-04-21 22:41:41) [GET]
+  [4;35;1mClassSchedule Load (0.6ms)[0m   [0mSELECT * FROM "class_schedules" [0m
+Rendering template within layouts/class_schedules
+Rendering class_schedules/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/class_schedules]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-21 22:41:47) [GET]
+  [4;36;1mCourse Load (0.5ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/courses
+Rendering courses/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/courses]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-21 22:42:57) [GET]
+  [4;35;1mClassLocation Load (0.4ms)[0m   [0mSELECT * FROM "class_locations" [0m
+Rendering template within layouts/class_locations
+Rendering class_locations/index
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#new (for 127.0.0.1 at 2009-04-21 22:43:00) [GET]
+Rendering template within layouts/class_locations
+Rendering class_locations/new
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/class_locations/new]
+
+
+Processing ClassLocationsController#create (for 127.0.0.1 at 2009-04-21 22:47:32) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "class_location"=>{"city"=>"Atlanta", "name"=>"JavaVino", "zip"=>"30307", "description"=>"A coffee and wine house located in the Poncey-Highlands neighborhood of Atlanta, GA. They offer a plethora of coffees and wines from around the world \r\nas well as a full menu of breakfast items, sandwiches, soups, salads, killer cheeseplates, small plates and yummy-lious collection of desserts. \r\n\r\nThere are two event rooms, Wine Cellar and Wine Lounge, depending on the size of the class. \r\n\r\nNestled in the desirable Poncey-Highlands, JavaVino provides a safe, comfortable, hip atmosphere with ample parkin, not to mention a promising post class afternoon.", "address_1"=>"579 N Highland Ave NE", "address_2"=>"", "state"=>"GA"}}
+  [4;36;1mClassLocation Create (0.4ms)[0m   [0;1mINSERT INTO "class_locations" ("name", "city", "zip", "updated_at", "address_1", "description", "address_2", "state", "created_at") VALUES('JavaVino', 'Atlanta', '30307', '2009-04-22 02:47:32', '579 N Highland Ave NE', 'A coffee and wine house located in the Poncey-Highlands neighborhood of Atlanta, GA. They offer a plethora of coffees and wines from around the world 
+as well as a full menu of breakfast items, sandwiches, soups, salads, killer cheeseplates, small plates and yummy-lious collection of desserts. 
+
+There are two event rooms, Wine Cellar and Wine Lounge, depending on the size of the class. 
+
+Nestled in the desirable Poncey-Highlands, JavaVino provides a safe, comfortable, hip atmosphere with ample parkin, not to mention a promising post class afternoon.', '', 'GA', '2009-04-22 02:47:32')[0m
+Redirected to http://localhost:3000/class_locations/1
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#show (for 127.0.0.1 at 2009-04-21 22:47:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mClassLocation Load (0.2ms)[0m   [0mSELECT * FROM "class_locations" WHERE ("class_locations"."id" = 1) [0m
+Rendering template within layouts/class_locations
+Rendering class_locations/show
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/class_locations/1]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-21 22:47:43) [GET]
+  [4;36;1mCourse Load (0.5ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/courses
+Rendering courses/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/courses]
+
+
+Processing CoursesController#edit (for 127.0.0.1 at 2009-04-21 22:47:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCourse Load (0.3ms)[0m   [0mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/edit
+Completed in 62ms (View: 55, DB: 0) | 200 OK [http://localhost/courses/1/edit]
+
+
+Processing CoursesController#update (for 127.0.0.1 at 2009-04-21 22:51:34) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"1", "course"=>{"title"=>"SEO Optimization in Action", "description"=>"A Search Engine Optimization class targeted to the Small Business Owner with an emphasis on ranking well for local online search (Google Local). \r\n\r\nStudents will learn the fundamentals necessary to succeed against larger companies in the highly competitive, but remarkably flat, arena of online search.  During the class, students will execute the techniques they learn against their own website source code with guidance from the instructor.   They will work together to form collaborative strategies with the other students that will continue to pay dividends toward their SEO future.\r\n\r\nThey leave the class with the knowledge, real world experience and a local professional network that they will use to grow their traffic going forward.  Additionally, they will have already completed enhancements that will start to move the traffic needle. \r\n\r\n"}}
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+  [4;35;1mCourse Update (0.5ms)[0m   [0mUPDATE "courses" SET "description" = 'A Search Engine Optimization class targeted to the Small Business Owner with an emphasis on ranking well for local online search (Google Local). 
+
+Students will learn the fundamentals necessary to succeed against larger companies in the highly competitive, but remarkably flat, arena of online search. During the class, students will execute the techniques they learn against their own website source code with guidance from the instructor. They will work together to form collaborative strategies with the other students that will continue to pay dividends toward their SEO future.
+
+They leave the class with the knowledge, real world experience and a local professional network that they will use to grow their traffic going forward. Additionally, they will have already completed enhancements that will start to move the traffic needle. 
+
+', "updated_at" = '2009-04-22 02:51:34' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/courses/1
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/courses/1]
+
+
+Processing CoursesController#show (for 127.0.0.1 at 2009-04-21 22:51:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCourse Load (0.2ms)[0m   [0;1mSELECT * FROM "courses" WHERE ("courses"."id" = 1) [0m
+Rendering template within layouts/courses
+Rendering courses/show
+  [4;35;1mClassSchedule Load (0.3ms)[0m   [0mSELECT * FROM "class_schedules" WHERE ("class_schedules".course_id = 1) [0m
+Rendered class_schedules/_class_schedule (0.9ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://localhost/courses/1]

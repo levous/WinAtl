@@ -25,7 +25,7 @@ class ClassSchedulesController < ApplicationController
   # GET /class_schedules/new.xml
   def new
     @class_schedule = ClassSchedule.new
-
+    @courses = Course.find(:all)
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @class_schedule }

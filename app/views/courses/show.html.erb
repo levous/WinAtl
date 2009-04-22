@@ -11,3 +11,8 @@
 
 <%= link_to 'Edit', edit_course_path(@course) %> |
 <%= link_to 'Back', courses_path %>
+
+<h3>Class Schedule</h3>
+<div id="class_schedules">
+	<%= render :partial => @course.class_schedules %>
+</div>

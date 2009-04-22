@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :class_schedules
 
-  map.resources :courses
+  map.resources :courses, :has_many => :class_schedules
 
   map.resources :people
 
