@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @lead.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @lead.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @lead.phone %>
+</p>
+
+<p>
+  <b>Message:</b>
+  <%=h @lead.message %>
+</p>
+
+
+<%= link_to 'Edit', edit_lead_path(@lead) %> |
+<%= link_to 'Back', leads_path %>

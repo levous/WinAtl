@@ -855,3 +855,405 @@ Processing PeopleController#index (for 127.0.0.1 at 2009-04-23 01:18:37) [GET]
 Rendering template within layouts/application
 Rendering people/index
 Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 01:28:12) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:30:18) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:30:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:31:21) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:32:12) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:32:18) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: home_page):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:32:33) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:32:37) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: home_page):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 01:32:47) [GET]
+
+ActionController::RoutingError (No route matches "/home_page" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:32:52) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 01:32:52) [GET]
+
+ActionController::RoutingError (No route matches "/home/images/buttons/get-more-information.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:32:54) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:32:57) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 01:32:57) [GET]
+
+ActionController::RoutingError (No route matches "/home/images/buttons/get-more-information.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:33:31) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:33:42) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:37:14) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing ApplicationController#submit (for 127.0.0.1 at 2009-04-23 01:37:17) [POST]
+  Parameters: {"x"=>"53", "y"=>"16"}
+
+LoadError (Expected /Users/rustyzarse/ruby-sites/winatl/app/controllers/lead_controller.rb to define LeadController):
+  
+
+Rendered rescues/_trace (25.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:37:36) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing LeadController#submit (for 127.0.0.1 at 2009-04-23 01:37:42) [POST]
+  Parameters: {"x"=>"167", "y"=>"24"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (29.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:41:43) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/home/home_page]
+
+
+Processing LeadController#submit (for 127.0.0.1 at 2009-04-23 01:41:45) [POST]
+  Parameters: {"x"=>"84", "y"=>"18"}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:47:44) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+
+ActionView::TemplateError (undefined local variable or method `end_form_tag' for #<ActionView::Base:0x239d724>) on line #65 of app/views/home/home_page.html.erb:
+62: 
+63: 		</div>
+64: 	</div>
+65: 	<%= end_form_tag %>
+66: 
+67: <% end %>
+
+    app/views/home/home_page.html.erb:65
+    app/views/home/home_page.html.erb:40
+
+Rendered rescues/_trace (97.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 01:47:46) [GET]
+
+ActionController::RoutingError (No route matches "/home_page" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-04-23 01:47:47) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: home_page):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:47:49) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+
+ActionView::TemplateError (undefined local variable or method `end_form_tag' for #<ActionView::Base:0x2339698>) on line #65 of app/views/home/home_page.html.erb:
+62: 
+63: 		</div>
+64: 	</div>
+65: 	<%= end_form_tag %>
+66: 
+67: <% end %>
+
+    app/views/home/home_page.html.erb:65
+    app/views/home/home_page.html.erb:40
+
+Rendered rescues/_trace (83.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 01:50:27) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:05:22) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 61ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:06:12) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:16:09) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 02:16:49) [POST]
+  Parameters: {"name"=>"Rusty Zarse", "x"=>"135", "y"=>"8", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "phone"=>"4045101134", "email"=>"rzarse@gmail.com"}
+
+ActionController::RoutingError (No route matches "/lead/submit" with {:method=>:post}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:18:58) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#submit (for 127.0.0.1 at 2009-04-23 02:19:02) [POST]
+  Parameters: {"name"=>"Rusty Zarse", "x"=>"37", "y"=>"13", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "phone"=>"4045101134", "email"=>"rzarse@gmail.com"}
+
+ActionController::UnknownAction (No action responded to submit. Actions: create, destroy, edit, index, new, show, and update):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:26:19) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+
+ActionView::TemplateError (Could not find table 'leads') on line #41 of app/views/home/home_page.html.erb:
+38: 
+39: 
+40: <% content_for :sidebar do %>
+41: 	<% form_for(Lead.new) do |f| %>
+42: 	<div id="contact-form">
+43: 		<div id="contact-intro">
+44: 			Are you interested in Search Engine Optimization Training in Atlanta, GA?
+
+    app/views/home/home_page.html.erb:41:in `new'
+    app/views/home/home_page.html.erb:41
+    app/views/home/home_page.html.erb:40
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20090422003725)
+Migrating to CreateCourses (20090422004611)
+Migrating to CreateClassSchedules (20090422004635)
+Migrating to CreateClassLocations (20090422004712)
+Migrating to CreateLeads (20090423061831)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "leads" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "phone" varchar(255), "message" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090423061831')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("class_locations")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("class_schedules")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("courses")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("leads")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("people")[0m
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:26:53) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:26:59) [POST]
+  Parameters: {"x"=>"106", "y"=>"18", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"RUsty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('RUsty Zarse', NULL, '2009-04-23 06:26:59', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:26:59')[0m
+Redirected to http://localhost:3000/leads/1
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:26:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 1) [0m
+Rendering template within layouts/leads
+Rendering leads/show
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/leads/1]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:27:05) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/leads
+Rendering leads/index
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:27:08) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 1) [0m
+Rendering template within layouts/leads
+Rendering leads/show
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/leads/1]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:27:10) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/leads
+Rendering leads/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:29:57) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:29:59) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-04-23 02:30:03) [POST]
+  Parameters: {"x"=>"109", "y"=>"7", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"RUsty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/controllers/leads_controller.rb:32: syntax error, unexpected tIDENTIFIER, expecting ')'
+    respond_to do |format|
+              ^):
+  
+
+Rendered rescues/_trace (79.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:30:24) [POST]
+  Parameters: {"x"=>"109", "y"=>"7", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"RUsty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;36;1mLead Create (0.5ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('RUsty Zarse', NULL, '2009-04-23 06:30:24', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:30:24')[0m
+Redirected to http://localhost:3000/leads/2
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:30:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mLead Load (1.4ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 2) [0m
+Rendering template within layouts/leads
+Rendering leads/show
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/leads/2]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:30:27) [GET]
+  [4;36;1mLead Load (0.6ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/leads
+Rendering leads/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
