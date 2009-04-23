@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <%= yield :head %>
+	<%= stylesheet_link_tag "winatl" %>
+	<% if not @content_for_sidebar %>
+	  <style type="text/css">
+	    #content{width:auto;}
+		#sidebar{display:none;}
+	  </style>
+	<% end %>
+	<script src="/javascripts/jquery.js" type="text/javascript"></script>
+	<script src="/javascripts/jquery-ui.js" type="text/javascript"></script>
+	<script src="/javascripts/jrails.js" type="text/javascript"></script>
+  </head>
+  <body>
+	<div id="page-wrap">
+		<div id="page">
+
+			<div id="header">
+				<div id="logo"><a href="/"><img src="/images/win-atl-logo.png" alt="SEO - Search Engine Optimization Training and Class in Atlanta - Win Atl" /></a></div>
+				<div id="top-nav">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/seo">SEO</a> - <a href="/seo">Search Engine Optimization</a></li>
+						<li><a href="/training">TRAINING</a></li>
+						<li><a href="/classes">CLASSES</a></li>
+					</ul>
+				</div>
+			</div>	
+		
+			<div id="content">
+		
+				<%= yield %>
+			
+			</div>
+		
+			<div id="sidebar">
+			
+				<%= yield :sidebar %>
+			
+			</div>
+
+			<div id="footer">&nbsp;</div>
+		</div>
+	</div>
+	<div id="bottom-cap">&nbsp;</div>
+  </body>
+</html>
