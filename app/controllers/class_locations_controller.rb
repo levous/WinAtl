@@ -1,4 +1,8 @@
 class ClassLocationsController < ApplicationController
+
+  # Require authentication 
+  before_filter :authenticate #, :only => [ :edit, :delete ]
+     
   # GET /class_locations
   # GET /class_locations.xml
   def index

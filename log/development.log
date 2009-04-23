@@ -1257,3 +1257,1319 @@ Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:30:27) [GET]
 Rendering template within layouts/leads
 Rendering leads/index
 Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:33:53) [GET]
+  [4;35;1mLead Load (0.6ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/leads
+Rendering leads/index
+Completed in 10ms (View: 6, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:34:24) [GET]
+  [4;36;1mLead Load (0.6ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:34:32) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"1"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 1) [0m
+  [4;36;1mLead Destroy (0.3ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/leads
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/leads/1]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:34:33) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:34:36) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:34:52) [POST]
+  Parameters: {"x"=>"50", "y"=>"13", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"Test Again", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;36;1mLead Create (0.4ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Test Again', NULL, '2009-04-23 06:34:52', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:34:52')[0m
+Redirected to http://localhost:3000/leads/3
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:34:52) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/3]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:35:38) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/3]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:35:42) [GET]
+  [4;35;1mLead Load (0.6ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:35:44) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:35:47) [POST]
+  Parameters: {"x"=>"84", "y"=>"17", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;36;1mLead Create (0.4ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 06:35:47', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:35:47')[0m
+Redirected to http://localhost:3000/leads/4
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:35:47) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/4]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:35:52) [GET]
+  [4;36;1mLead Load (0.6ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:36:26) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:36:31) [POST]
+  Parameters: {"x"=>"122", "y"=>"5", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 06:36:31', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:36:31')[0m
+Redirected to http://localhost:3000/leads/5
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:36:31) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/5]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:38:32) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:38:35) [POST]
+  Parameters: {"x"=>"88", "y"=>"17", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 06:38:35', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:38:35')[0m
+Redirected to http://localhost:3000/leads/6
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:38:35) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/6]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:45:56) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 02:46:00) [POST]
+  Parameters: {"x"=>"118", "y"=>"17", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404-510-1134", "email"=>"rustyzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 06:46:00', '404-510-1134', 'rustyzarse@gmail.com', '2009-04-23 06:46:00')[0m
+Redirected to http://localhost:3000/leads/7
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 02:46:00) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 7) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/7]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 02:46:37) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:41) [GET]
+  [4;35;1mLead Load (0.8ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 66ms (View: 6, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:47) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"2"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 2) [0m
+  [4;35;1mLead Destroy (0.3ms)[0m   [0mDELETE FROM "leads" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/leads
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/leads/2]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:47) [GET]
+  [4;36;1mLead Load (0.8ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:48) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"3"}
+  [4;35;1mLead Load (0.3ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 3) [0m
+  [4;36;1mLead Destroy (0.3ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/leads
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/leads/3]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:48) [GET]
+  [4;35;1mLead Load (0.8ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:50) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"5"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 5) [0m
+  [4;35;1mLead Destroy (0.3ms)[0m   [0mDELETE FROM "leads" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/leads
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/leads/5]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:50) [GET]
+  [4;36;1mLead Load (0.7ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 12ms (View: 5, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:51) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"4"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 4) [0m
+  [4;36;1mLead Destroy (0.3ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/leads
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/leads/4]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:51) [GET]
+  [4;35;1mLead Load (0.6ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:52) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"6"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 6) [0m
+  [4;35;1mLead Destroy (0.3ms)[0m   [0mDELETE FROM "leads" WHERE "id" = 6[0m
+Redirected to http://localhost:3000/leads
+Completed in 12ms (DB: 1) | 302 Found [http://localhost/leads/6]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:52) [GET]
+  [4;36;1mLead Load (0.9ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 02:46:55) [DELETE]
+  Parameters: {"authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "id"=>"7"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 7) [0m
+  [4;36;1mLead Destroy (0.5ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 7[0m
+Redirected to http://localhost:3000/leads
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/leads/7]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 02:46:55) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 08:22:09) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 08:28:30) [GET]
+  [4;36;1mLead Load (0.4ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/leads]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:28:36) [GET]
+
+NoMethodError (undefined method `authenticate' for #<ClassLocationsController:0x22e9e90>):
+  
+
+Rendered rescues/_trace (80.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:32:41) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:32:48) [GET]
+
+NameError (uninitialized constant ApplicationController::USER_ID):
+  app/controllers/application_controller.rb:11:in `authenticate'
+  app/controllers/application_controller.rb:10:in `authenticate'
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:33:53) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:33:53) [GET]
+  [4;35;1mClassLocation Load (0.6ms)[0m   [0mSELECT * FROM "class_locations" [0m
+Rendering template within layouts/application
+Rendering class_locations/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/class_locations]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 08:34:12) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-23 08:34:23) [GET]
+  [4;36;1mCourse Load (0.5ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/application
+Rendering courses/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/courses]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:34:29) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:35:13) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:35:20) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:35:20) [GET]
+  [4;35;1mClassLocation Load (0.5ms)[0m   [0mSELECT * FROM "class_locations" [0m
+Rendering template within layouts/application
+Rendering class_locations/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/class_locations]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-23 08:35:26) [GET]
+  [4;36;1mCourse Load (0.5ms)[0m   [0;1mSELECT * FROM "courses" [0m
+Rendering template within layouts/application
+Rendering courses/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/courses]
+/!\ FAILSAFE /!\  Thu Apr 23 08:37:18 -0400 2009
+  Status: 500 Internal Server Error
+  undefined local variable or method `home' for main:Object
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:51
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:226:in `draw'
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:1
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:266:in `load!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:281:in `reload'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:59:in `reload_application'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:8:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Apr 23 08:37:43 -0400 2009
+  Status: 500 Internal Server Error
+  undefined local variable or method `home' for main:Object
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:51
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:226:in `draw'
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:1
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:266:in `load!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:281:in `reload'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:59:in `reload_application'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:8:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Thu Apr 23 08:38:40 -0400 2009
+  Status: 500 Internal Server Error
+  undefined local variable or method `home' for main:Object
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:51
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:226:in `draw'
+    /Users/rustyzarse/ruby-sites/winatl/config/routes.rb:1
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:145:in `load'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:266:in `load!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:281:in `reload'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:59:in `reload_application'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:8:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:61:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/mongrel.rb:34:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:39:13) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 1, DB: 0) | 401 Unauthorized [http://localhost/class_locations]
+
+
+Processing ClassLocationsController#index (for 127.0.0.1 at 2009-04-23 08:39:24) [GET]
+  [4;35;1mClassLocation Load (0.5ms)[0m   [0mSELECT * FROM "class_locations" [0m
+Rendering template within layouts/application
+Rendering class_locations/index
+Completed in 14ms (View: 7, DB: 1) | 200 OK [http://localhost/class_locations]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 08:39:28) [GET]
+
+ActionController::RoutingError (No route matches "/seo" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:40:12) [GET]
+
+ActionView::MissingTemplate (Missing template home/seo_info.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:41:29) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:44:33) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:44:39) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:46:19) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:47:31) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:47:41) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 08:47:43) [GET]
+
+ActionView::MissingTemplate (Missing template home/training_info.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 08:51:23) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 08:52:23) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 08:53:06) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 08:53:09) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 08:53:10) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 08:56:15) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 08:58:46) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 08:58:55) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 08:59:49) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:01:00) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:01:11) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:01:16) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:01:20) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:01:23) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:01:26) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:01:59) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:02:30) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:02:55) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:03:02) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:03:04) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:03:20) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:05:19) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:05:28) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:06:52) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:07:35) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:07:58) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 09:08:00) [GET]
+
+ActionController::RoutingError (No route matches "/sem" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-04-23 09:08:17) [GET]
+
+ActionController::RoutingError (No route matches "/sem" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:08:24) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:08:46) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:08:51) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:10:46) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:10:53) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:11:15) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:11:37) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:13:07) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:13:34) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:13:36) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:13:37) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:13:38) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:13:40) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:13:41) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:13:42) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:13:43) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:13:45) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:13:47) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:13:48) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 09:14:15) [POST]
+  Parameters: {"x"=>"0", "y"=>"0", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+  [4;36;1mLead Create (0.4ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 13:14:15', '404 510 1134', 'rzarse@gmail.com', '2009-04-23 13:14:15')[0m
+Redirected to http://localhost:3000/leads/8
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 09:14:15) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/8]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 09:21:45) [GET]
+  Parameters: {"id"=>"8"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 8) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 60ms (View: 55, DB: 0) | 200 OK [http://localhost/leads/8]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:21:46) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:21:49) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+
+ActionView::TemplateError (Missing template /home/__leadform.html.erb in view path app/views) on line #34 of app/views/home/classes_info.html.erb:
+31: 	WinAtl is excited to offer <b>Atlanta classes in Search Engine Optimization for small businesses</b>.  This 4 hour class is <b>geared toward the resourceful, <i>do it yourself</i> website owner</b>.  You'll <i>learn by doing</i> and <i>leave empowered</i> with mad <b>SEO skills</b>.
+32: </div>
+33: 
+34: <% render :partial => '/home/_leadform.html.erb' %>
+
+    app/views/home/classes_info.html.erb:34
+
+Rendered rescues/_trace (36.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:22:11) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (6.3ms)
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:22:35) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (15.5ms)
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:23:32) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (5.5ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:23:33) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:23:35) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (8.5ms)
+Completed in 148ms (View: 146, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:23:36) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (5.2ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 09:23:36) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (5.3ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:23:37) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (5.4ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 09:23:55) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (5.8ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing LeadsController#create (for 127.0.0.1 at 2009-04-23 09:24:08) [POST]
+  Parameters: {"x"=>"175", "y"=>"28", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 13:24:08', '404 510 1134', 'rzarse@gmail.com', '2009-04-23 13:24:08')[0m
+Redirected to http://localhost:3000/leads/9
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 09:24:08) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 9) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/leads/9]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:26:46) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 64ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:27:33) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:29:20) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:29:48) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (3.3ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:31:58) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:32:25) [POST]
+  Parameters: {"x"=>"69", "y"=>"11", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (31.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:32:51) [POST]
+  Parameters: {"x"=>"69", "y"=>"11", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (40.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:32:59) [POST]
+  Parameters: {"x"=>"69", "y"=>"11", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (103.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:33:50) [GET]
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (30.3ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:34:27) [GET]
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (90.6ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:34:32) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/models/emailer.rb:8: syntax error, unexpected tSTRING_BEG, expecting kEND
+        @content_type "text/html"
+                       ^):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:36:26) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+NoMethodError (undefined method `send_lead' for Emailer:Class):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (99.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:37:44) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+
+NoMethodError (undefined method `send_lead' for Emailer:Class):
+  app/controllers/home_controller.rb:20:in `lead_submit'
+
+Rendered rescues/_trace (37.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:37:58) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:38:31) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:38:38) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:38:46) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+
+ActionView::TemplateError (undefined local variable or method `name' for #<ActionView::Base:0x24b475c>) on line #3 of app/views/home/lead_submit.html.erb:
+1: 
+2: <div id="seo-text">
+3: 	<h1>Thanks <%= name %></h1>
+4: 	<h2>We'll contact you shortly!</h2>
+5: 	You can start by collecting a list of competitors in your space that you would like to out rank!
+6: </div>
+
+    app/views/home/lead_submit.html.erb:3
+    app/controllers/home_controller.rb:22:in `lead_submit'
+
+Rendered rescues/_trace (94.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:39:17) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+
+ActionView::TemplateError (undefined local variable or method `name' for #<ActionView::Base:0x24bb05c>) on line #3 of app/views/home/lead_submit.html.erb:
+1: 
+2: <div id="seo-text">
+3: 	<h1>Thanks <%= name %></h1>
+4: 	<h2>We'll contact you shortly!</h2>
+5: 	You can start by collecting a list of competitors in your space that you would like to out rank!
+6: </div>
+
+    app/views/home/lead_submit.html.erb:3
+    app/controllers/home_controller.rb:22:in `lead_submit'
+
+Rendered rescues/_trace (44.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:39:34) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:40:59) [POST]
+  Parameters: {"x"=>"115", "y"=>"6", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:41:09) [POST]
+  Parameters: {"x"=>"71", "y"=>"5", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:41:25) [GET]
+  [4;35;1mLead Load (0.6ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 09:41:29) [DELETE]
+  Parameters: {"authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "id"=>"8"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 8) [0m
+  [4;35;1mLead Destroy (0.3ms)[0m   [0mDELETE FROM "leads" WHERE "id" = 8[0m
+Redirected to http://localhost:3000/leads
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/leads/8]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:41:29) [GET]
+  [4;36;1mLead Load (0.6ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 09:41:30) [DELETE]
+  Parameters: {"authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "id"=>"9"}
+  [4;35;1mLead Load (0.7ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 9) [0m
+  [4;36;1mLead Destroy (0.4ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 9[0m
+Redirected to http://localhost:3000/leads
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/leads/9]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:41:31) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:41:33) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:41:49) [POST]
+  Parameters: {"x"=>"122", "y"=>"15", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:41:58) [GET]
+  [4;36;1mLead Load (0.7ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing ApplicationController#home_page (for 127.0.0.1 at 2009-04-23 09:45:29) [GET]
+
+SyntaxError (/Users/rustyzarse/ruby-sites/winatl/app/controllers/home_controller.rb:26: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (24.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:46:03) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:46:12) [POST]
+  Parameters: {"x"=>"68", "y"=>"8", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"404 510 1134", "email"=>"rzarse@gmail.com"}}
+  [4;35;1mLead Create (0.4ms)[0m   [0mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 13:46:12', '404 510 1134', 'rzarse@gmail.com', '2009-04-23 13:46:12')[0m
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 69ms (View: 1, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:46:21) [GET]
+  [4;36;1mLead Load (0.6ms)[0m   [0;1mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#destroy (for 127.0.0.1 at 2009-04-23 09:46:24) [DELETE]
+  Parameters: {"authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "id"=>"10"}
+  [4;35;1mLead Load (0.2ms)[0m   [0mSELECT * FROM "leads" WHERE ("leads"."id" = 10) [0m
+  [4;36;1mLead Destroy (0.4ms)[0m   [0;1mDELETE FROM "leads" WHERE "id" = 10[0m
+Redirected to http://localhost:3000/leads
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/leads/10]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 09:46:24) [GET]
+  [4;35;1mLead Load (0.5ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/leads]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:46:25) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 09:46:26) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 09:46:34) [POST]
+  Parameters: {"x"=>"182", "y"=>"10", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"Rusty Zarse", "phone"=>"bla", "email"=>"Hello"}}
+  [4;36;1mLead Create (0.6ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('Rusty Zarse', NULL, '2009-04-23 13:46:34', 'bla', 'Hello', '2009-04-23 13:46:34')[0m
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 09:46:42) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]

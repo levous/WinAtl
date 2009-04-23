@@ -1,4 +1,9 @@
 class LeadsController < ApplicationController
+  
+  # Require authentication 
+  before_filter :authenticate #, :only => [ :edit, :delete ]
+  
+  
   # GET /leads
   # GET /leads.xml
   def index
@@ -25,9 +30,6 @@ class LeadsController < ApplicationController
   # GET /leads/new.xml
   def new
     @lead = Lead.new
-    
-    Emailer.send_lead(@lead.name, @lead.email, @lead.phone, "message")
-    
 
     respond_to do |format|
       format.html # new.html.erb

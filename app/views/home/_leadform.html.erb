@@ -1,0 +1,57 @@
+<% content_for :head do %>
+	<title>Search Engine Optimization Class / SEO Class for Small Business Owners in Atlanta, GA</title>
+	<meta title="description" value="Attend a Search Engine Optimization class in Atlanta, GA designed specifically for small Businesses owners who manage their own site(s).  Learn from industry experts in a comfortable, informal setting where practical techiques are implemented while in class against your own website source code."></meta>
+	<style type="text/css" media="screen">
+
+	    #content{width:500px;}
+
+		#seo-text{	
+			left:330px;
+			position:absolute;
+			top:130px;
+			width:280px;
+			text-align:center;
+			font-size:15px;
+			color:#999;
+		}
+		#seo-text h1{margin:10px;}
+		#seo-text h2{margin:10px 0;font-size:18px;}
+		#contact-form {position:relative;background: url(/images/swiss-army-knife-70.png) 20px top no-repeat;}
+		#contact-form label{width:80px; text-align:right; display:block; float:left; color:#8a7; font-weight:bold;padding-right:10px;}
+		#contact-form input{width:200px; border:solid 1px #8a7;}
+		#contact-intro{padding-left:92px; color:#584;margin-bottom:20px;}
+		#contact-button{ margin:10px 0 0 86px; text-align:center; position:relative;}
+		#contact-button input{border:0;margin-bottom:-8px;}
+    </style>
+<% end %>
+
+<% content_for :sidebar do %>
+	<% form_for :lead, @lead, :url => { :action => "lead_submit" } do |f| %>
+	<div id="contact-form">
+		<div id="contact-intro">
+			Are you interested in Search Engine Optimization Training in Atlanta, GA?
+		</div>
+		<div>
+			<label>name</label>
+			<%= f.text_field :name %>
+			
+		</div>
+		<div>
+			<label>email</label>
+			<%= f.text_field :email %>
+			
+		</div>
+		<div>
+			<label>phone</label>
+			<%= f.text_field :phone %>
+		</div>
+		<div id="contact-button">
+			<input type="image" src="/images/buttons/get-more-information.png" alt="Get More Information" />
+			<br/>
+			<a href="#" >Get More Information</a>
+
+		</div>
+	</div>
+	<% end %>
+
+<% end %>

@@ -1,4 +1,8 @@
 class CoursesController < ApplicationController
+  
+  # Require authentication 
+  before_filter :authenticate #, :only => [ :edit, :delete ]
+  
   # GET /courses
   # GET /courses.xml
   def index

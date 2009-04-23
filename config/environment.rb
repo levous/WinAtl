@@ -48,9 +48,10 @@ end
 
 require "smtp_tls"
 
-ActionMailer::Base.smtp_settings = {:address => "smtp.gmail.com",
+ActionMailer::Base.smtp_settings = {
+  :address => "smtp.gmail.com",
   :port => 587,
   :authentication => :plain, #try :login if not worky
   :user_name => "rustyzarse@gmail.com",
-  :password => 'levois420'
+  :password => 'theyou(25'
 }

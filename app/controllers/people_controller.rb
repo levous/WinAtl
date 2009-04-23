@@ -1,4 +1,8 @@
 class PeopleController < ApplicationController
+  
+  # Require authentication 
+  before_filter :authenticate #, :only => [ :edit, :delete ]
+  
   # GET /people
   # GET /people.xml
   def index

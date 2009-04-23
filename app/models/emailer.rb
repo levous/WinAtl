@@ -5,7 +5,7 @@ class Emailer < ActionMailer::Base
         @from = name + " <" + email + ">"
         @subject = "A Web Lead from WinAtl"
         @sent_on = sent_at
-        @content_type "text/html"
+        @content_type = "text/html"
         @body["email_message"] = message
         @body["email_name"] = name
         @body["email_address"] = email

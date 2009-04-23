@@ -1,4 +1,8 @@
 class ClassSchedulesController < ApplicationController
+  
+  # Require authentication 
+  before_filter :authenticate #, :only => [ :edit, :delete ]
+  
   # GET /class_schedules
   # GET /class_schedules.xml
   def index
