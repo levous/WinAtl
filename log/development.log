@@ -2573,3 +2573,655 @@ Rendering template within layouts/application
 Rendering home/home_page
 Rendered home/_leadform (0.9ms)
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 10:33:45) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 10:33:46) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:33:47) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:33:49) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 10:33:51) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:33:54) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 10:33:56) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 10:34:07) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (1.5ms)
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:34:15) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:34:17) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:34:56) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 10:34:58) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:35:16) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.2ms)
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:42:27) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.1ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:42:44) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 52ms (View: 50, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:43:27) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:43:50) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:44:19) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:45:54) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.1ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:46:15) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.0ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:46:58) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 10:48:28) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.8ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 11:34:52) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 11:34:59) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 11:35:00) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 11:35:07) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/sem]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:35:09) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.8ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 11:35:14) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.8ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 11:35:49) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (1.2ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo/sem]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 11:49:43) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 11:49:53) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo/sem]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:49:57) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 11:49:58) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:49:59) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 11:50:12) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:50:14) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:51:41) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.8ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:51:49) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:52:47) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (1.1ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:53:59) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:54:50) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (1.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:55:05) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (1.2ms)
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:55:17) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:55:26) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:15) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.8ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:23) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:30) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:38) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (1.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 11:56:42) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 11:56:42) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (1.0ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:44) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (3.2ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 11:56:46) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 11:56:47) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (59.9ms)
+Completed in 63ms (View: 61, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 11:56:48) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (1.2ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 11:56:49) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (0.9ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo/sem]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 11:56:57) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:38:19) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 12:38:19) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 12:38:20) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.8ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:38:21) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing CoursesController#index (for 127.0.0.1 at 2009-04-23 12:38:26) [GET]
+  [4;35;1mCourse Load (0.5ms)[0m   [0mSELECT * FROM "courses" [0m
+Rendering template within layouts/application
+Rendering courses/index
+Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/COURSES]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:38:31) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:39:25) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.0ms)
+Completed in 61ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:39:27) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:39:27) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:39:28) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:39:33) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:40:04) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:40:05) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.3ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:40:06) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 12:40:07) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 12:40:08) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (1.0ms)
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:41:15) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 12:41:18) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 12:41:37) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (2.9ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 12:41:39) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-04-23 12:41:40) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:41:41) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:41:41) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#seo_info (for 127.0.0.1 at 2009-04-23 12:41:52) [GET]
+Rendering template within layouts/application
+Rendering home/seo_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/seo]
+
+
+Processing HomeController#sem_info (for 127.0.0.1 at 2009-04-23 12:41:53) [GET]
+Rendering template within layouts/application
+Rendering home/sem_info
+Rendered home/_leadform (53.1ms)
+Completed in 56ms (View: 54, DB: 0) | 200 OK [http://localhost/seo/sem]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 12:43:05) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#training_info (for 127.0.0.1 at 2009-04-23 12:43:58) [GET]
+Rendering template within layouts/application
+Rendering home/training_info
+Rendered home/_leadform (3.3ms)
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/training]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-23 12:44:43) [POST]
+  Parameters: {"x"=>"56", "y"=>"22", "authenticity_token"=>"P1eoNQactXZ/tc+OAoKVzmZZGkXWTg+PuwMIkYxTR5I=", "lead"=>{"name"=>"GORDON Corsetti", "phone"=>"3434k", "email"=>"glag"}}
+  [4;36;1mLead Create (0.5ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('GORDON Corsetti', NULL, '2009-04-23 16:44:43', '3434k', 'glag', '2009-04-23 16:44:43')[0m
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 184ms (View: 4, DB: 1) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing LeadsController#index (for 127.0.0.1 at 2009-04-23 12:45:47) [GET]
+  [4;35;1mLead Load (0.7ms)[0m   [0mSELECT * FROM "leads" [0m
+Rendering template within layouts/application
+Rendering leads/index
+Completed in 64ms (View: 58, DB: 1) | 200 OK [http://localhost/leads]
+
+
+Processing LeadsController#show (for 127.0.0.1 at 2009-04-23 12:45:50) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mLead Load (0.2ms)[0m   [0;1mSELECT * FROM "leads" WHERE ("leads"."id" = 12) [0m
+Rendering template within layouts/application
+Rendering leads/show
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/leads/12]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2009-04-23 12:46:03) [GET]
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+Completed in 141ms (View: 137, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2009-04-23 12:46:05) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 12:47:08) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 13:02:56) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (33.0ms)
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 15:05:30) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.2ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 15:10:52) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-23 15:11:08) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]

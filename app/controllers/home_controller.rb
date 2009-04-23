@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   end
   
   def seo_info
-  end 
+  end
   
   def seo_info
   end
