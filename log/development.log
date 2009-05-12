@@ -3225,3 +3225,67 @@ Rendering template within layouts/application
 Rendering home/home_page
 Rendered home/_leadform (0.8ms)
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 00:55:45) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (2.9ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 01:20:50) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.8ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 01:31:47) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 01:40:22) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#lead_submit (for 127.0.0.1 at 2009-04-24 01:40:28) [POST]
+  Parameters: {"x"=>"77", "y"=>"2", "authenticity_token"=>"Hc0GC+w9aASk3qJWLLKubVP6+JbqSlwwlRIXJ83vwpE=", "lead"=>{"name"=>"ds", "phone"=>"ffr", "email"=>"sd"}}
+  [4;36;1mLead Create (0.5ms)[0m   [0;1mINSERT INTO "leads" ("name", "message", "updated_at", "phone", "email", "created_at") VALUES('ds', NULL, '2009-04-24 05:40:28', 'ffr', 'sd', '2009-04-24 05:40:28')[0m
+Rendering template within layouts/application
+Rendering home/lead_submit
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://localhost/home/lead_submit]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 08:29:59) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 12:49:39) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (0.9ms)
+Completed in 9ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-24 14:30:01) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (47.9ms)
+Completed in 191ms (View: 102, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-04-27 09:00:53) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (1.2ms)
+Completed in 283ms (View: 280, DB: 0) | 200 OK [http://localhost/]
