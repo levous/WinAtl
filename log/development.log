@@ -4229,3 +4229,38 @@ Rendering template within layouts/application
 Rendering home/classes_info
 Rendered home/_leadform (1.2ms)
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-05-12 21:39:23) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (1.7ms)
+Completed in 61ms (View: 59, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-05-12 21:39:58) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (0.9ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#classes_info (for 127.0.0.1 at 2009-05-12 21:40:17) [GET]
+Rendering template within layouts/application
+Rendering home/classes_info
+Rendered home/_leadform (1.4ms)
+Completed in 74ms (View: 72, DB: 0) | 200 OK [http://localhost/classes]
+
+
+Processing HomeController#john_sherrod_info (for 127.0.0.1 at 2009-05-12 21:40:19) [GET]
+Rendering template within layouts/application
+Rendering home/john_sherrod_info
+Rendered home/_leadform (1.0ms)
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/john_sherrod/]
+
+
+Processing HomeController#john_sherrod_info (for 127.0.0.1 at 2009-05-12 21:40:38) [GET]
+Rendering template within layouts/application
+Rendering home/john_sherrod_info
+Rendered home/_leadform (0.9ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/john_sherrod/]

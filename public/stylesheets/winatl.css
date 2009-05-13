@@ -65,7 +65,7 @@ a:hover {
 }
 #breadcrumb{clear:both;color:#ccc;font-size:.6em;font-weight:bold;margin-top:30px;}
 #breadcrumb A{font-size:1.5em;color:#55e;margin:0 5px;}
-#left-col{clear:both;}
+#left-col{clear:both;margin-top:135px;}
 #info-text{
 	
 }

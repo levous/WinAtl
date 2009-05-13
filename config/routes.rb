@@ -51,6 +51,7 @@ ActionController::Routing::Routes.draw do |map|
   map.connect '/seo', :controller => "home", :action => "seo_info"
   map.connect '/seo/sem', :controller => "home", :action => "sem_info"
   map.connect '/training', :controller => "home", :action => "training_info"
+  map.connect '/john_sherrod', :controller => "home", :action => "john_sherrod_info"
   map.connect '/training/affordable_small_business_seo', :controller => "home", :action => "affordable_info"
   map.connect '/training/seo_for_small_business_owner', :controller => "home", :action => "client_who_info"
   map.connect '/classes', :controller => "home", :action => "classes_info"
