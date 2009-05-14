@@ -4264,3 +4264,10 @@ Rendering template within layouts/application
 Rendering home/john_sherrod_info
 Rendered home/_leadform (0.9ms)
 Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/john_sherrod/]
+
+
+Processing HomeController#home_page (for 127.0.0.1 at 2009-05-14 06:41:36) [GET]
+Rendering template within layouts/application
+Rendering home/home_page
+Rendered home/_leadform (121.5ms)
+Completed in 207ms (View: 193, DB: 0) | 200 OK [http://localhost/]
